@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/dashboard.dart';
+import 'package:hello_flutter/login.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 void main() => runApp(
@@ -21,7 +22,7 @@ class _MyAppState extends State<MyApp>
   Widget build(BuildContext context) {
     return new SplashScreen(
       seconds: 14,
-      navigateAfterSeconds: DashBoard(),
+      navigateAfterSeconds: Login(),
       title: Text("Bienvenidos",
         style: TextStyle(
           fontWeight: FontWeight.bold,

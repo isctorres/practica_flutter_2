@@ -22,6 +22,7 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   splashscreen: ^1.2.0
+  http: ^0.12.0+1
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +47,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - images/logo.png
+    - images/cine.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
